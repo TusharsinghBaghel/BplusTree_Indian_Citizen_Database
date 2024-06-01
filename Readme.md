@@ -20,7 +20,8 @@ This project implements an Indian Citizen database using nested B+ trees from sc
   Bank B+ Tree Bank B+ Tree Bank B+ Tree Bank B+ Tree
   --------------------    -------------------- 
   | Bank1 | Bank2 | ... |  | Bank1 | Bank2 | ... | 
-  --------------------    -------------------- 
+  --------------------    --------------------
+```sh
 
 ## Features
 
