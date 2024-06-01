@@ -1,0 +1,146 @@
+Rahul Nikhote 
+Koradi 
+22112211
+465 
+1000.0
+Citi Bank
+
+Vikrant Singh
+Godhani Naka
+33223322
+777
+100000.0
+SBI Bank
+
+Ayaan Sheikh
+South Africa
+1111111
+123
+2.5
+HDFC
+
+Ayaan Khan
+Oman
+2222222
+111
+450.0
+PNB
+
+Ayaan Khan
+Oman
+2222223
+112
+250.0
+ICICI
+
+Ayaan Khan
+Oman
+2222223
+113
+50.0
+ICICI
+
+Ayaan Khan
+Oman
+2222224
+114
+30.0
+Muthoot Finance
+
+Ritesh Reddy
+Hyderabad Telangana
+3333333
+154
+10000.0
+Wells Fargo
+
+Nihaal Badam
+Hyderabad
+4444444
+141
+500.0
+BNY Mellon
+
+Nihaal Badam
+Hyderabad
+4444443
+142
+340.5
+SBI
+
+Nihaal Badam
+Hyderabad
+4444442
+143
+230.4
+MahaBank
+
+Nihaal Badam
+Hyderabad
+4444441
+144
+15.5
+Union Bank
+
+Nihaal Badam
+Hyderabad
+4444440
+145
+70000.0
+PNB
+
+Shantanu Renghe
+Pune 
+5555555
+171
+5.5
+MahaBank
+
+Manav Kalmegh
+Amravati
+6666666
+120
+900.0
+SBI
+
+Darshan Deokar
+Nagpur
+7777777
+100
+1500.0
+ICICI
+
+Ojas Khamele
+IT Park, Nagpur
+8888888
+999
+100000.0
+ICICI
+
+Ojas Khamele
+IT Park, Nagpur
+8888887
+998
+90.0
+SBI
+
+Manav Kalmegh
+Amravati
+6666665
+941
+2000.0
+Muthoot Finance
+
+Ojas Chamele
+IT Park, Nagpur
+8888885
+997
+45.7
+HDFC
+
+Sapnil Deshbhratar
+Ramtek
+9999999
+786
+679.9
+SBI
