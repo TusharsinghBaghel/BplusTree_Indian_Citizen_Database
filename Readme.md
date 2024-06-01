@@ -1,24 +1,26 @@
 # Indian Citizen Database using Nested B+ Trees
 
 This project implements an Indian Citizen database using nested B+ trees from scratch in C. The database is structured such that each leaf contains the Aadhar data of an individual. Each leaf also contains a pointer to another B+ tree whose leaves contain all the PANs of that person. Furthermore, each PAN leaf contains a pointer to another B+ tree whose leaves are the banks associated with the corresponding PAN card. The insertion process is optimized for both efficiency and space economy, utilizing a parent stack for back propagation during splits. 
-Aadhar B+ Tree
 
-
------------------------------------------
-| Aadhar1 | Aadhar2 | Aadhar3 | ...     |
------------------------------------------
-       |            |             |
-       v            v             v
-       PAN B+ Tree  PAN B+ Tree   PAN B+ Tree
-       ---------------------      --------------------
-       | PAN1 | PAN2 | ... |      | PAN1 | PAN2 | ... |
-       ---------------------      --------------------
-           |      |                  |      |
-           v      v                  v      v
-    Bank B+ Tree  Bank B+ Tree  Bank B+ Tree  Bank B+ Tree
-    --------------------  --------------------  -------------------
-    | Bank1 | Bank2 | ... |  | Bank1 | Bank2 | ... |  | Bank1 | Bank2 | ... |
-    --------------------  --------------------  -------------------
+```sh
+### Structure Overview
+         |
+ Aadhar B+ Tree
+ -----------------------------------------
+ | Aadhar1  | Aadhar2  | Aadhar3  | ...   |
+ -----------------------------------------
+       |         |          |
+       v         v          v
+    PAN B+ Tree PAN B+ Tree PAN B+ Tree
+    --------------------    --------------------
+    | PAN1 | PAN2 | ... |   | PAN1 | PAN2 | ... |
+    --------------------    --------------------
+       |       |              |      |
+       v       v              v      v
+  Bank B+ Tree Bank B+ Tree Bank B+ Tree Bank B+ Tree
+  --------------------    -------------------- 
+  | Bank1 | Bank2 | ... |  | Bank1 | Bank2 | ... | 
+  --------------------    -------------------- 
 
 ## Features
 
