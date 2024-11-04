@@ -1,4 +1,5 @@
 # Indian Citizen Database using Nested B+ Trees
+Just a testing to Check a trial on selenium
 This project implements an Indian Citizen database using nested B+ trees from scratch in C. The database is structured such that each leaf contains the Aadhar data of an individual. Each leaf also contains a pointer to another B+ tree whose leaves contain all the PANs of that person. Furthermore, each PAN leaf contains a pointer to another B+ tree whose leaves are the banks associated with the corresponding PAN card. The insertion process is optimized for both efficiency and space economy, utilizing a parent stack for back propagation during splits. 
 
 ```sh
@@ -47,7 +48,3 @@ The hierarchical structure of the database (Aadhar -> PAN -> Bank) allows for ef
 
 ### Consistency and Anomaly Detection
 The `Print citizens with inconsistent data` function leverages the hierarchical structure to cross-verify information across different identity cards, making it easier to detect and resolve inconsistencies.
-
-### Flexibility in Data Integration
-The `Add New Bank dataset` function demonstrates the flexibility of the nested B+ tree structure in integrating new data sources. This adaptability is crucial for maintaining and updating the database as new data becomes available.
-
